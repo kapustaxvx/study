@@ -17,7 +17,7 @@ public class JDBCDataStorage implements DataStorage {
 
 
     public JDBCDataStorage() {
-        this("jdbc:h2:/home/ilia/home/IliaLessons/db/testDB");
+        this("jdbc:h2:/home/ilia/home/study/db/testDB");
     }
 
     public JDBCDataStorage(String dbPath) {
